@@ -1,1 +1,1 @@
-worker: python universe.py
+worker: node index.js
