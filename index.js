@@ -85,7 +85,7 @@ __**Command list**__
             return message.channel.send("<a:A_Warn2:739526745698467941> Sorry, but I need a **`CONNECT`** permission to proceed!");
         }
         if (!permissions.has("SPEAK")) {
-            return message.channel.send(<a:A_Warn2:739526745698467941> "Sorry, but I need a **`SPEAK`** permission to proceed!");
+            return message.channel.send("<a:A_Warn2:739526745698467941> Sorry, but I need a **`SPEAK`** permission to proceed!");
         }
         if (url.match(/^https?:\/\/(www.youtube.com|youtube.com)\/playlist(.*)$/)) {
             const playlist = await youtube.getPlaylist(url);
